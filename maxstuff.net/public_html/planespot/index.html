@@ -1,7 +1,7 @@
 <!--Plane Spot www.maxstuff.net/planespot-->
 
 <head>
-  <title>Plane Spot</title>
+  <title>When shall ye planespot</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="icon" type="image/icon type" href="/favicon/plane-spot.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/plane-spot.png"/>
@@ -11,20 +11,20 @@
   </head>
 <body>
   <h1>
-    Plane Spot
+    When shall ye planespot
   </h1>
   <p>
-		Find the best times to go planespotting!
+		Find Yee times to planespot
 	</p>
 	<p>
-		<span style="color:red;display:none;" id="timewarn">Please pick an end time <b>after</b> the start time.<br><br></span>
-		Airport: <select id="airportSelect"></select><br>
-		Availability Start Time: <input id="avStartTime" onchange="validateTime();" type="datetime-local"><br>
-		Availability End Time: <input id="avEndTime" onchange="validateTime();" type="datetime-local"><br>
-		Time Spent Planespotting: <input type="number" id="timeSpentH" min=0 value=1 style="width:5vw">:<input type="number" id="timeSpentM" min=0 value=0 max=60 style="width:5vw"><br>
-		Departure Importance: <input type="number" id="departureWeight" min=0 value=1 step=0.1 style="width:10vw"><br>
-		Arrival Importance: <input type="number" id="arrivalWeight" min=0 value=1 step=0.1 style="width:10vw">
-		<br><button id="getTimes">Get times!</button><br>
+		<span style="color:red;display:none;" id="timewarn">When will ye scallywags finish <b>after</b> the start time.<br><br></span>
+		Plane Port: <select id="airportSelect"></select><br>
+		When ye start being avalibe: <input id="avStartTime" onchange="validateTime();" type="datetime-local"><br>
+		When ye finish being avalible: <input id="avEndTime" onchange="validateTime();" type="datetime-local"><br>
+		How long ye planespot for: <input type="number" id="timeSpentH" min=0 value=1 style="width:5vw">:<input type="number" id="timeSpentM" min=0 value=0 max=60 style="width:5vw"><br>
+		How much are ye valuing departures: <input type="number" id="departureWeight" min=0 value=1 step=0.1 style="width:10vw"><br>
+		How much are ye valuing arrivals: <input type="number" id="arrivalWeight" min=0 value=1 step=0.1 style="width:10vw">
+		<br><button id="getTimes">Get ye times!</button><br>
 		<span id="resultSpan"></span>
 		<table id="resultTable" style="display:none;">
 			<thead>
@@ -42,19 +42,19 @@
 		</table>
 	</p>
 	<p>
-		Unsure how to use the app? Watch the tutorial at <a href="https://youtu.be/qbW3bVkl7Lo">youtu.be/qbW3bVkl7Lo</a>
+		Are ye a dumb doorknob be a little smarter <a href="https://youtu.be/qbW3bVkl7Lo">youtu.be/qbW3bVkl7Lo</a>
 	</p>
 	<p>
-		Airport you want not here? You can check if it will be added at <a href="https://github.com/maxfire2008/airportapimaxstuffnet/issues">https://github.com/maxfire2008/airportapimaxstuffnet/issues</a> and then react to it with a thumbs up or you can request it be added at <a href="https://github.com/maxfire2008/airportapimaxstuffnet/issues/new?assignees=&labels=&template=add-airport-request.md&title=Add+airport+with+ICAO+%2A%2A%2A%2A">https://github.com/maxfire2008/airportapimaxstuffnet/issues/new?assignees=&labels=&template=add-airport-request.md&title=Add+airport+with+ICAO+%2A%2A%2A%2A</a>
-		which requires a GitHub.com account.
+		Ye airport not here? If it be at the link <a href="https://github.com/maxfire2008/airportapimaxstuffnet/issues">https://github.com/maxfire2008/airportapimaxstuffnet/issues</a> give it a thumbs up or if it not be there go to the link ahead <a href="https://github.com/maxfire2008/airportapimaxstuffnet/issues/new?assignees=&labels=&template=add-airport-request.md&title=Add+airport+with+ICAO+%2A%2A%2A%2A">https://github.com/maxfire2008/airportapimaxstuffnet/issues/new?assignees=&labels=&template=add-airport-request.md&title=Add+airport+with+ICAO+%2A%2A%2A%2A</a>
+		these both require you scallywags to have yeself a GitHub account.
 	</p>
 	<!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
-  <h1>Contact Me</h1>
+  <h1>Talk to your captain</h1>
   <p>
     Email - <a href="mailto:me@maxstuff.net">me@maxstuff.net</a><br>
     Discord - MaxFire2008#4700<br><br><br>
-	<a href="http://www.maxstuff.net/cookies">Cookie Policy</a><br>
-	<a href="http://www.maxstuff.net/privacy">Privacy Policy</a>
+	<a href="http://www.maxstuff.net/cookies">Yee Old Cookies</a><br>
+	<a href="http://www.maxstuff.net/privacy">Is this ship private enough?</a>
   </p>
 	<script src="script.js"></script>
 </body>
