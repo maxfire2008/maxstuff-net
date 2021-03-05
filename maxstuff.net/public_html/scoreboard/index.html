@@ -1,7 +1,7 @@
 <!--ScoreBoard App www.maxstuff.net/scoreboard-->
 
 <head>
-  <title>ScoreBoard</title>
+  <title>Which Pirate Is Better Off</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/main.css">
   <style>
@@ -42,19 +42,19 @@
   </head>
 <body>
   <h1>
-ScoreBoard
+Which Pirate Is Better Off
 </h1>
 
 <div class="scoresection">
-	<input class="playerOneText" id="playerOneName" placeholder="Person One" oninput="emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">
+	<input class="playerOneText" id="playerOneName" placeholder="Pirate One" oninput="emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">
 	<h1 class="playerOneText" id="scoreOne">0</h1>
 	<button class="playerOneText" onclick="scoreOne.textContent=parseInt(scoreOne.textContent)-1;emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">-</button>
 	<button class="playerOneText" onclick="scoreOne.textContent=parseInt(scoreOne.textContent)+1;emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">+</button>
 </div>
 <div class="scoresection">
-	<input class="playerTwoText" id="playerTwoName" placeholder="Person Two" oninput="emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">
+	<input class="playerTwoText" id="playerTwoName" placeholder="Pirate Two" oninput="emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">
 	<h1 class="playerTwoText" id="scoreTwo">0</h1>
 	<button class="playerTwoText" onclick="scoreTwo.textContent=parseInt(scoreTwo.textContent)-1;emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">-</button>
 	<button class="playerTwoText" onclick="scoreTwo.textContent=parseInt(scoreTwo.textContent)+1;emaillink.href='mailto:?subject='+playerOneName.value+' vs '+playerTwoName.value+'&body='+playerOneName.value+':'+scoreOne.textContent+' '+playerTwoName.value+':'+scoreTwo.textContent">+</button>
 </div>
-<a id="emaillink" href='mailto:?subject= vs &body=:0 :0'>Email these results.</a>
+<a id="emaillink" href='mailto:?subject= vs &body=:0 :0'>Email the corpses</a>
